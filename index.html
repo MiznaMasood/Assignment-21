@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    
+    <!-- Q1 -->
+    <a onclick="alert('Hello')" href="#">Google</a>
+    
+    <!-- Q2 -->
+    <img onclick="alert('Thanks for purchasing a phone')"
+    
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbu1W_fcEjECbm3gsw3IIrm4mYbVhuYRGoSA&s" alt="">
+
+
+    <img onclick="alert('Thanks for purchasing a phone')"
+     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2bySuyrP6yx13EWEPyc27ERj3ZTneAKlJ5w&s" alt="">
+
+    <img onclick="alert('Thanks for purchasing a phone')" 
+     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPghOOd2L-tgW8XsLejVjYKsG4MkF7TgScJA&s" alt="">
+
+
+     <!-- Q3 -->
+       <table>
+         <tr>
+            <td><h4>Index</h4></td>
+            <td><h4>Name</h4></td>
+            <td><h4>Class</h4></td>
+
+         </tr>   
+         
+         <tr onclick="deleteRow(this)" class = "delete-but">
+            <td>0</td>
+            <td>Jhon 10</td>
+            <td><button>Delete</button></td>
+
+         </tr>
+
+         <tr onclick="deleteRow(this)" class = "delete-but">
+            <td>1</td>
+            <td>Doe 9</td>
+            <td><button>Delete</button></td>
+
+         </tr>
+
+         <tr onclick="deleteRow(this)" class = "delete-but">
+            <td>2</td>
+            <td>Mark 7</td>
+            <td><button>Delete</button></td>
+
+         </tr>
+
+         <tr onclick="deleteRow(this)" class = "delete-but">
+            <td>3</td>
+            <td>James 8</td>
+            <td><button>Delete</button></td>
+
+         </tr>
+        
+       </table>
+
+       <script>
+        // Function to delete row when clicking on "Delete" button
+        function deleteRow(row) {
+            row.parentNode.removeChild(row);
+        }
+        </script>
+
+
+
+
+      <!-- Q4 -->
+      <div>
+      <img onmouseover="src =' https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXwXcwzjv6l6kvmR1RLZQFMW2w3fSHxlJ4Q&s'"
+      
+      onmouseout="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSauhGSjUsGSJCFs8gRdOQbA75EhtVQ_L7sVA&s'"  
+   
+    
+      <script src="app.js">
+      </script>
+   
+     
+</body>
+</html>
